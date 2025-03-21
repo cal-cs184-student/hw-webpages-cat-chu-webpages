@@ -95,13 +95,13 @@
 
 		MODERATE
 
-		maxplanck with: 0.2551s
+		maxplanck with: 0.1709s
 		maxplanck without: 511.5816s
 
-		beast with: 0.0194 sec
+		beast with: 0.1120s
 		beast without: 667.6721s
 
-		bunny with: 0.0467 sec
+		bunny with: 0.1486s
 		bunny without: 319.7556s
 
 		LARGE
@@ -123,6 +123,22 @@
 		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
 		pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
 		laborum.
+
+		3 im w/both 1024 (w/-o 1): /dae/sky/CBbunny.dae, /dae/sky/CBspheres_lambertian.dae, /dae/sky/dragon.dae
+		- l=16, m=5
+
+		spheres: only direct 1024, only indirect 1024
+		.........m -1 ............ uncomment & m -5
+		- l=16, m=5
+
+		CBbunny: both 1024 m=0-5 w/o and w/-o 0
+		- how 2 & 3 contribute
+
+		4.4
+		CBbunny: rr 1024 m=0,1,2,3,4,100
+
+		CB bunny s=1,2,4,8,16,64,1024 l=4
+
 
 		<h2>Part 5: Adaptive Sampling</h2>
 		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
